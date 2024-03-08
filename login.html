@@ -1,0 +1,126 @@
+<html>
+<head>
+	<title>HalalMunch | Login</title>
+<style>
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	font-family:arial;
+	
+}
+
+.container{
+	background-image:linear-gradient(to bottom, rgba( 145, 146, 122, 0.62),rgba(218, 13, 29, 0.8)),url("images/pizza.jpg");
+	background-size:cover;
+    height:100%;
+	text-align:center;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-form{
+	background-color: ghostwhite;
+	width:500px;
+	height:auto;
+    padding:30px;
+	display:grid;	
+	border-radius: 8px;
+	text-align: left;
+}
+
+input[type=text]{
+	margin-bottom:20px;
+	border-radius: 7px;
+	padding:6px;
+	margin-top:3px
+}
+input[type=email]{
+	margin-bottom:20px;
+	border-radius: 7px;
+	padding:6px;
+	margin-top: 3px;
+}
+input[type=password]{
+	margin-bottom:20px;
+	border-radius: 7px;
+	padding:6px;
+	margin-top: 3px;
+}
+
+.login{
+	background-color: crimson;
+	padding:10px;
+	border:none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius:5px;
+	transition: 0.5s ease;
+	
+}
+.login a{
+	color:white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: medium;
+}
+.login:hover{
+	background-color: darkred;
+}
+
+.forget{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.forget a{
+	text-decoration: none;
+	color:crimson;
+	transition: 0.1s ease;
+}
+
+.forget a:hover{
+	color:darkred;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="container">
+
+	<form class="login-form">
+		<h2 style="color:crimson">LOGIN</h2>
+		<hr>
+		<br>
+		<br>
+		Email :<input type="email" placeholder="Enter Email">
+		<br>
+		Password :<input type="password" placeholder="Enter Password">
+		<button class="login"><a href="">Login</a></button>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<div class="forget">
+			<div>
+			<p>Forgot Password?</p>
+			Click <a href="">here</a>
+			</div>
+			<div>
+			<p>Don't have an account?</p>
+			Click <a href="">here</a>
+			</div>
+		</div>
+		<br><br>
+		<p><a href="index.html" style="color: crimson;">Return to Home</a></p>
+	</form>
+
+</div>
+
+</body>
+</html>
